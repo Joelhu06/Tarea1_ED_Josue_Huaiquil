@@ -1,13 +1,10 @@
 Sistema de gestión de tickets de soporte técnico
 
-============================================================================================================================================================
-> DESCRIPCIÓN
-============================================================================================================================================================
+DESCRIPCIÓN:
+
 Este proyecto es una aplicación para administrar tickets de soporte técnico de una empresa, esta permite registrar nuevos tickets, asignar su prioridad, visualizar la lista de tickets pendientes, procesar el siguiente ticket según prioridad y buscar los tickets por ID. Utilizando el TDA lista para organizar los tickets según su prioridad (Alta, Media o Baja).
 
-============================================================================================================================================================
-> CÓMO COMPILAR Y EJECUTAR
-============================================================================================================================================================
+CÓMO COMPILAR Y EJECUTAR:
 
 Este sistema ha sido desarrollado en lenguaje C y puede ejecutarse fácilmente utilizando **Visual Studio Code** junto con una extensión para C/C++, como **C/C++ Extension Pack** de Microsoft. Para comenzar a trabajar con el sistema en tu equipo local, sigue estos pasos:
 
@@ -35,9 +32,7 @@ Este sistema ha sido desarrollado en lenguaje C y puede ejecutarse fácilmente u
     - Una vez compilado, puedes ejecutar la aplicación con:
         ./gestion_tickets
         
-============================================================================================================================================================
-> FUNCIONALIDADES
-============================================================================================================================================================
+FUNCIONALIDADES:
 
 > Funcionando correctamente:
 
@@ -60,9 +55,7 @@ Este sistema ha sido desarrollado en lenguaje C y puede ejecutarse fácilmente u
 - Optimización del uso de listas (evitar limpiar y redistribuir en cada ejecución).
 
 
-============================================================================================================================================================
-> EJEMPLO DE USO
-============================================================================================================================================================
+EJEMPLO DE USO:
 
 > Paso 1: Registrar un nuevo ticket
 
@@ -80,6 +73,8 @@ El sistema registra el ticket de ID '101' con una prioridad inicial "Bajo" y gua
 
 > Paso 2: Se finaliza el registro de tickets
 
+Se termina el registro de los tickets cuando se seleciona la opción 2.
+
 ```
 SELECCIONE UNA OPCION (1, 2): 2
 
@@ -93,7 +88,7 @@ Se asigna la prioridad que tienen los tickets, ya sea por prioridad alta, media 
 ```
 Ingrese la prioridad (Bajo, Medio, Alto) para el ticket con ID 101: Alto
 ```
-* El sistema actualiza la prioridad del ticket de ID '101' a "Alto".
+El sistema actualiza la prioridad del ticket de ID '101' a "Alto".
 
 > Paso 4: Mostrar lista de ticketcs pendientes
 
@@ -128,11 +123,10 @@ El sistema muestra que el ticket de ID '101' está siendo procesado y lo elimina
 
 El usuario introduce una ID de ticket para buscar.
 
-````
+```
 BUSQUEDA POR ID
 
 INGRESE LA ID A BUSCAR: 101
 ID NO ESCONTRADA
 ```
-
 Se busca el ticket de ID 101, pero al haber sido procesado anteriormente no se encuentra.
