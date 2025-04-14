@@ -16,19 +16,17 @@ Este sistema ha sido desarrollado en lenguaje C y puede ejecutarse fácilmente u
 
 > Pasos para compilar y ejecutar:
 
-1.  Descarga y descomprime el archivo `.zip` en una carpeta de tu elección.
-
-2.  Abre el proyecto en Visual Studio Code
+1.  Abre el proyecto en Visual Studio Code
     - Inicia Visual Studio Code.
-    - Selecciona `Archivo > Abrir carpeta...` y elige la carpeta donde descomprimiste el proyecto.
+    - Selecciona `Clone Git Repository` y abre el siguiente repositorio (https://github.com/Joelhu06/Tarea1_ED_Josue_Huaiquil.git).
 
-3.  Compila el código
+2.  Compila el código
     - Abre el archivo principal (por ejemplo, `main.c`).
     - Abre la terminal integrada (`Terminal > Nueva terminal`).
     - En la terminal, compila el programa con el siguiente comando:
         gcc main.c list.c -o gestion_tickets
 
-4.  Ejecuta el programa
+3.  Ejecuta el programa
     - Una vez compilado, puedes ejecutar la aplicación con:
         ./gestion_tickets
         
