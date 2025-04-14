@@ -94,7 +94,6 @@ void cambioLista(List *tickets, List *nueva, char *text)
   while (elemento != NULL)
   {
     if (strcmp((*elemento).prioridad, text) == 0) list_pushBack(nueva, elemento);
-    //list_popCurrent(nueva);
     elemento = list_next(tickets);
   }
 }
